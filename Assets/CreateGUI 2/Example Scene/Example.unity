@@ -1,0 +1,1274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_QueryMode: 1
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    viewCellSize: 1
+    bakeMode: 2
+    memoryUsage: 10485760
+--- !u!104 &2
+RenderSettings:
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 0}
+  m_ObjectHideFlags: 0
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  m_LightProbes: {fileID: 0}
+  m_Lightmaps: []
+  m_LightmapsMode: 1
+  m_BakedColorSpace: 0
+  m_UseDualLightmapsInForward: 0
+  m_LightmapEditorSettings:
+    m_Resolution: 50
+    m_LastUsedResolution: 0
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_BounceBoost: 1
+    m_BounceIntensity: 1
+    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
+    m_SkyLightIntensity: 0
+    m_Quality: 0
+    m_Bounces: 1
+    m_FinalGatherRays: 1000
+    m_FinalGatherContrastThreshold: .0500000007
+    m_FinalGatherGradientThreshold: 0
+    m_FinalGatherInterpolationPoints: 15
+    m_AOAmount: 0
+    m_AOMaxDistance: .100000001
+    m_AOContrast: 1
+    m_LODSurfaceMappingDistance: 1
+    m_Padding: 0
+    m_TextureCompression: 0
+    m_LockAtlas: 0
+--- !u!196 &5
+NavMeshSettings:
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    widthInaccuracy: 16.666666
+    heightInaccuracy: 10
+  m_NavMesh: {fileID: 0}
+--- !u!114 &124421799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1489d8295f76e09438a0e759bd820d0b, type: 3}
+  m_Name: Main Cam_CG(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 0}
+  children:
+  - {fileID: 1784956891}
+  - {fileID: 1716301536}
+  - {fileID: 828492510}
+  - {fileID: 2090055841}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 816
+    height: 445
+  UIScale: 1
+--- !u!114 &219478108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab146d34e75afee40aa0a8a6c042fff8, type: 3}
+  m_Name: ScrollArea
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 12.3000002
+    y: 17
+    width: 99.1299973
+    height: 111.599998
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 828492510}
+  children:
+  - {fileID: 1990105911}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 670.607239
+    y: 189.987946
+    width: 154.96991
+    height: 174.464264
+  scrollPosition: {x: 0, y: 29.3914795}
+  viewArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 14.8999996
+    height: 34.1800003
+  alwaysShowHorizontal: 0
+  alwaysShowVertical: 0
+  horizontalStyle: 
+  verticalStyle: 
+--- !u!114 &324311020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: SliderValue
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: -12.6599998
+    width: 63
+    height: 14.1000004
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1716301536}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 55.0360489
+    y: 222.63736
+    width: 98.4878922
+    height: 22.0425301
+  text: 'Value: 4.262918'
+--- !u!114 &446845178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1489d8295f76e09438a0e759bd820d0b, type: 3}
+  m_Name: Main Cam_CG(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 0}
+  children:
+  - {fileID: 1784956891}
+  - {fileID: 1716301536}
+  - {fileID: 828492510}
+  - {fileID: 2090055841}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 713
+    height: 445
+  UIScale: 1
+--- !u!114 &489020655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab146d34e75afee40aa0a8a6c042fff8, type: 3}
+  m_Name: ScrollArea
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 4.80000019
+    width: 82.2300034
+    height: 88.7699966
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 828492510}
+  children:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1082327246}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 555.499817
+    y: 127.583549
+    width: 128.550156
+    height: 138.774124
+  scrollPosition: {x: 0, y: 58.3621521}
+  viewArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 34.1800003
+  alwaysShowHorizontal: 0
+  alwaysShowVertical: 0
+  horizontalStyle: 
+  verticalStyle: 
+--- !u!114 &489939697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5bfc78345f829f46b21d5139c47cf41, type: 3}
+  m_Name: SampleButton
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 13.8500004
+    height: 10
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1515763191}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 376.801758
+    y: 236.200195
+    width: 96.3960037
+    height: 69.5999985
+  text: 'Clicks: 15'
+  clicked: 0
+--- !u!114 &536253723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67874f9ac479884ebd421085849556c, type: 3}
+  m_Name: SampleSlider
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 54.7999992
+    height: 10
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1716301536}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 61.4455795
+    y: 245.633514
+    width: 85.6688309
+    height: 15.6329994
+  sliderOrientation: 0
+  sliderValue: 4.26291847
+  leftTopLimit: 0
+  rightBottomLimit: 10
+  thumbStyle: 
+--- !u!114 &569066330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1489d8295f76e09438a0e759bd820d0b, type: 3}
+  m_Name: Main Cam_CG(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 0}
+  children:
+  - {fileID: 489939697}
+  - {fileID: 1361027819}
+  - {fileID: 1146356914}
+  - {fileID: 1345249566}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 850
+    height: 542
+  UIScale: 1
+--- !u!1001 &755272478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: root
+      value: 
+      objectReference: {fileID: 124421799}
+    - target: {fileID: 11400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+      propertyPath: loadPrefab
+      value: -126194
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+    - {fileID: 12400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+    - {fileID: 9200000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+    - {fileID: 2000000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+  m_RootGameObject: {fileID: 1631504433}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!114 &809436428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: SliderValue
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: -12.6599998
+    width: 63
+    height: 14.1000004
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1716301536}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 49.1860504
+    y: 191.687347
+    width: 98.4878922
+    height: 22.0425301
+  text: 'Value: 4.262918'
+--- !u!114 &828492510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04771cce322cd94aa25e11183e1a361, type: 3}
+  m_Name: ScrollAreaWindow
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: -5
+    y: 0
+    width: 24
+    height: 30
+  relativePosition: 5
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 446845178}
+  children:
+  - {fileID: 489020655}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 545.089844
+    y: 135.650391
+    width: 138.959991
+    height: 173.699997
+  title: ScrollArea Window
+  dragWindow:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 100
+    height: 5
+--- !u!114 &898260462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: SliderValue
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: -12.6599998
+    width: 63
+    height: 14.1000004
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1716301536}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 55.0360489
+    y: 222.63736
+    width: 98.4878922
+    height: 22.0425301
+  text: 'Value: 4.262918'
+--- !u!114 &1082327246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: SampleText
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 84.5999985
+    height: 227.949997
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 489020655}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 550.294922
+    y: 102.616776
+    width: 113.078171
+    height: 304.682831
+  text: asdfasdfasdfasdfasdfasdfasdfkklja;grejgoiqnegoierngoirguoiegnworgniuworginworginorigneorginaorginaoirgnaoirgnoa;irgnao;irgnao;erignoa;iergnaeo;rgjaheorg;ianeroginaerog;inaerog;ianrgo;iaegrlaerlgnaeorginaerg;oaienrgo;aienrgo;aienrgao;eirgnaeo;rginaergo;iaenrg
+--- !u!114 &1146356914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04771cce322cd94aa25e11183e1a361, type: 3}
+  m_Name: ScrollAreaWindow
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: -5
+    y: 0
+    width: 24
+    height: 30
+  relativePosition: 5
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1515763191}
+  children:
+  - {fileID: 219478108}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 648.160156
+    y: 166.599609
+    width: 167.040009
+    height: 208.800003
+  title: ScrollArea Window
+  dragWindow:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 100
+    height: 5
+--- !u!114 &1271320744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5bfc78345f829f46b21d5139c47cf41, type: 3}
+  m_Name: SampleButton
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 13.8500004
+    height: 10
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1515763191}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 376.801758
+    y: 236.200195
+    width: 96.3960037
+    height: 69.5999985
+  text: 'Clicks: 15'
+  clicked: 0
+--- !u!114 &1345249566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: Title
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 3.99000001
+    width: 10
+    height: 10
+  relativePosition: 1
+  style: Title
+  skin: {fileID: 11400000, guid: 3ef6af121cc134943a95a4118b371a5d, type: 2}
+  parent: {fileID: 1515763191}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 390.200195
+    y: 27.7705078
+    width: 69.5999985
+    height: 69.5999985
+  text: Example
+--- !u!114 &1361027819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04771cce322cd94aa25e11183e1a361, type: 3}
+  m_Name: SliderWindow
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 5
+    y: 0
+    width: 24
+    height: 30
+  relativePosition: 3
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1515763191}
+  children:
+  - {fileID: 536253723}
+  - {fileID: 898260462}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 34.7998047
+    y: 166.599609
+    width: 167.040009
+    height: 208.800003
+  title: Slider Window
+  dragWindow:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 100
+    height: 5
+--- !u!114 &1457916592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04771cce322cd94aa25e11183e1a361, type: 3}
+  m_Name: ScrollAreaWindow
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: -5
+    y: 0
+    width: 24
+    height: 30
+  relativePosition: 5
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1515763191}
+  children:
+  - {fileID: 1965536221}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 648.160156
+    y: 166.599609
+    width: 167.040009
+    height: 208.800003
+  title: ScrollArea Window
+  dragWindow:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 100
+    height: 5
+--- !u!114 &1464402711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: Title
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 3.99000001
+    width: 10
+    height: 10
+  relativePosition: 1
+  style: Title
+  skin: {fileID: 11400000, guid: 3ef6af121cc134943a95a4118b371a5d, type: 2}
+  parent: {fileID: 1515763191}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 390.200195
+    y: 27.7705078
+    width: 69.5999985
+    height: 69.5999985
+  text: Example
+--- !u!114 &1515763191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1489d8295f76e09438a0e759bd820d0b, type: 3}
+  m_Name: Main Cam_CG(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 0}
+  children:
+  - {fileID: 1271320744}
+  - {fileID: 1971433574}
+  - {fileID: 1457916592}
+  - {fileID: 1464402711}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 850
+    height: 542
+  UIScale: 1
+--- !u!114 &1529177856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67874f9ac479884ebd421085849556c, type: 3}
+  m_Name: SampleSlider
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 54.7999992
+    height: 10
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1716301536}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 61.4455795
+    y: 245.633514
+    width: 85.6688309
+    height: 15.6329994
+  sliderOrientation: 0
+  sliderValue: 4.26291847
+  leftTopLimit: 0
+  rightBottomLimit: 10
+  thumbStyle: 
+--- !u!1 &1631504433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+  m_PrefabInternal: {fileID: 755272478}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1631504437}
+  - 114: {fileID: 1631504436}
+  - 114: {fileID: 1631504435}
+  - 20: {fileID: 1631504434}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1631504434
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1631504433}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .186567187, g: .186567187, b: .186567187, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+--- !u!114 &1631504435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1631504433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b78078ba61cfa4b80fad39bc794aef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sampleButtonClicks: 15
+--- !u!114 &1631504436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: de47d56ebdc678a48b373b1fd87a6e80,
+    type: 2}
+  m_PrefabInternal: {fileID: 755272478}
+  m_GameObject: {fileID: 1631504433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e54a9e7441d4eb148b3474f153809692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  root: {fileID: 569066330}
+  loadPrefab: 137794
+--- !u!4 &1631504437
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: de47d56ebdc678a48b373b1fd87a6e80, type: 2}
+  m_PrefabInternal: {fileID: 755272478}
+  m_GameObject: {fileID: 1631504433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &1716301536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04771cce322cd94aa25e11183e1a361, type: 3}
+  m_Name: SliderWindow
+  m_EditorClassIdentifier: 
+  foldout: 0
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 5
+    y: 0
+    width: 24
+    height: 30
+  relativePosition: 3
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 446845178}
+  children:
+  - {fileID: 1857562458}
+  - {fileID: 809436428}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 28.9501953
+    y: 135.650391
+    width: 138.959991
+    height: 173.699997
+  title: Slider Window
+  dragWindow:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 100
+    height: 5
+--- !u!114 &1783584643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: SampleText
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 93.8600006
+    height: 227.949997
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 489020655}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 659.383606
+    y: 163.793976
+    width: 125.455284
+    height: 304.682831
+  text: asdfasdfasdfasdfasdfasdfasdfkklja;grejgoiqnegoierngoirguoiegnworgniuworginworginorigneorginaorginaoirgnaoirgnoa;irgnao;irgnao;erignoa;iergnaeo;rgjaheorg;ianeroginaerog;inaerog;ianrgo;iaegrlaerlgnaeorginaerg;oaienrgo;aienrgo;aienrgao;eirgnaeo;rginaergo;iaenrg
+--- !u!114 &1784956891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5bfc78345f829f46b21d5139c47cf41, type: 3}
+  m_Name: SampleButton
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 13.8500004
+    height: 10
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 446845178}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 316.404297
+    y: 193.549805
+    width: 80.1915054
+    height: 57.9000015
+  text: 'Clicks: 0'
+  clicked: 0
+--- !u!114 &1857562458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a67874f9ac479884ebd421085849556c, type: 3}
+  m_Name: SampleSlider
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 54.7999992
+    height: 10
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1716301536}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 55.5955811
+    y: 214.683502
+    width: 85.6688309
+    height: 15.6329994
+  sliderOrientation: 0
+  sliderValue: 4.26291847
+  leftTopLimit: 0
+  rightBottomLimit: 10
+  thumbStyle: 
+--- !u!114 &1965536221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab146d34e75afee40aa0a8a6c042fff8, type: 3}
+  m_Name: ScrollArea
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 12.3000002
+    y: 17
+    width: 99.1299973
+    height: 111.599998
+  relativePosition: 4
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 828492510}
+  children:
+  - {fileID: 1783584643}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 670.607239
+    y: 189.987946
+    width: 154.96991
+    height: 174.464264
+  scrollPosition: {x: 0, y: 29.3914795}
+  viewArea:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 14.8999996
+    height: 34.1800003
+  alwaysShowHorizontal: 0
+  alwaysShowVertical: 0
+  horizontalStyle: 
+  verticalStyle: 
+--- !u!114 &1971433574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e04771cce322cd94aa25e11183e1a361, type: 3}
+  m_Name: SliderWindow
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 5
+    y: 0
+    width: 24
+    height: 30
+  relativePosition: 3
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 1515763191}
+  children:
+  - {fileID: 1529177856}
+  - {fileID: 324311020}
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 34.7998047
+    y: 166.599609
+    width: 167.040009
+    height: 208.800003
+  title: Slider Window
+  dragWindow:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 100
+    height: 5
+--- !u!114 &1990105911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: SampleText
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 93.8600006
+    height: 227.949997
+  relativePosition: 0
+  style: 
+  skin: {fileID: 0}
+  parent: {fileID: 489020655}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 659.383606
+    y: 163.793976
+    width: 125.455284
+    height: 304.682831
+  text: asdfasdfasdfasdfasdfasdfasdfkklja;grejgoiqnegoierngoirguoiegnworgniuworginworginorigneorginaorginaoirgnaoirgnoa;irgnao;irgnao;erignoa;iergnaeo;rgjaheorg;ianeroginaerog;inaerog;ianrgo;iaegrlaerlgnaeorginaerg;oaienrgo;aienrgo;aienrgao;eirgnaeo;rginaergo;iaenrg
+--- !u!114 &2090055841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67136d76b5908b34c806d07ac5cdd78b, type: 3}
+  m_Name: Title
+  m_EditorClassIdentifier: 
+  foldout: 1
+  mouseOver: 0
+  beingDragged: 0
+  visible: 1
+  draggable: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 3.99000001
+    width: 10
+    height: 10
+  relativePosition: 1
+  style: Title
+  skin: {fileID: 11400000, guid: 3ef6af121cc134943a95a4118b371a5d, type: 2}
+  parent: {fileID: 446845178}
+  children: []
+  actualRenderBounds:
+    serializedVersion: 2
+    x: 327.549805
+    y: 23.1025391
+    width: 57.9000015
+    height: 57.9000015
+  text: Example
