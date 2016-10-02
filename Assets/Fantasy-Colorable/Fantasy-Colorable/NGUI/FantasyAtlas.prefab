@@ -1,0 +1,584 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FantasyAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 573038a9327e84bccbdad404e42e9b6b, type: 2}
+  sprites:
+  - name: FrameRockGreyscale80
+    outer:
+      serializedVersion: 2
+      x: 727
+      y: 1268
+      width: 691
+      height: 780
+    inner:
+      serializedVersion: 2
+      x: 791
+      y: 1396
+      width: 563
+      height: 524
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FramePlainGreyscale80
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1146
+      width: 725
+      height: 902
+    inner:
+      serializedVersion: 2
+      x: 64
+      y: 1210
+      width: 597
+      height: 774
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: OrnamentDragonHead
+    outer:
+      serializedVersion: 2
+      x: 1669
+      y: 307
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1669
+      y: 307
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CharacterPortraitInner
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 73
+      width: 570
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 73
+      width: 570
+      height: 255
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: CharacterPortrait
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 73
+      width: 570
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 73
+      width: 570
+      height: 255
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameSeparator
+    outer:
+      serializedVersion: 2
+      x: 1144
+      y: 65
+      width: 652
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 1160
+      y: 65
+      width: 620
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonNormal
+    outer:
+      serializedVersion: 2
+      x: 1144
+      y: 189
+      width: 289
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 1176
+      y: 221
+      width: 225
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonHover
+    outer:
+      serializedVersion: 2
+      x: 1321
+      y: 476
+      width: 289
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 1353
+      y: 508
+      width: 225
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonDown
+    outer:
+      serializedVersion: 2
+      x: 1144
+      y: 84
+      width: 289
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 1176
+      y: 116
+      width: 225
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonBlockX
+    outer:
+      serializedVersion: 2
+      x: 1435
+      y: 77
+      width: 102
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1435
+      y: 77
+      width: 102
+      height: 102
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonBlockDown
+    outer:
+      serializedVersion: 2
+      x: 1435
+      y: 181
+      width: 102
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1473
+      y: 219
+      width: 26
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonBlockNormal
+    outer:
+      serializedVersion: 2
+      x: 1435
+      y: 285
+      width: 102
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 1473
+      y: 323
+      width: 26
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconSoundOn
+    outer:
+      serializedVersion: 2
+      x: 1604
+      y: 143
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1604
+      y: 143
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconSoundOff
+    outer:
+      serializedVersion: 2
+      x: 1604
+      y: 225
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1604
+      y: 225
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ButtonFrame80
+    outer:
+      serializedVersion: 2
+      x: 1144
+      y: 294
+      width: 289
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 1176
+      y: 326
+      width: 225
+      height: 39
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconTick
+    outer:
+      serializedVersion: 2
+      x: 1669
+      y: 225
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1669
+      y: 225
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconCross
+    outer:
+      serializedVersion: 2
+      x: 1669
+      y: 143
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1669
+      y: 143
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: OrnamentCornerRight
+    outer:
+      serializedVersion: 2
+      x: 1372
+      y: 420
+      width: 49
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1372
+      y: 420
+      width: 49
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: OrnamentCornerLeft
+    outer:
+      serializedVersion: 2
+      x: 1321
+      y: 420
+      width: 49
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1321
+      y: 420
+      width: 49
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: OrnamentLargeDragonLeft
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 388
+      width: 204
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 933
+      y: 388
+      width: 204
+      height: 191
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: OrnamentLargeDragonRight
+    outer:
+      serializedVersion: 2
+      x: 727
+      y: 388
+      width: 204
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 727
+      y: 388
+      width: 204
+      height: 191
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FramePlainSquare80
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 330
+      width: 725
+      height: 814
+    inner:
+      serializedVersion: 2
+      x: 64
+      y: 394
+      width: 597
+      height: 686
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameSquare80
+    outer:
+      serializedVersion: 2
+      x: 1139
+      y: 399
+      width: 180
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 1171
+      y: 431
+      width: 116
+      height: 116
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameRockSimpleGreyscale80
+    outer:
+      serializedVersion: 2
+      x: 1420
+      y: 1364
+      width: 691
+      height: 684
+    inner:
+      serializedVersion: 2
+      x: 1484
+      y: 1492
+      width: 563
+      height: 428
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tab
+    outer:
+      serializedVersion: 2
+      x: 1435
+      y: 389
+      width: 301
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 1435
+      y: 389
+      width: 301
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: FrameRockPlainGreyscale80
+    outer:
+      serializedVersion: 2
+      x: 727
+      y: 581
+      width: 691
+      height: 685
+    inner:
+      serializedVersion: 2
+      x: 759
+      y: 613
+      width: 627
+      height: 621
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconUp
+    outer:
+      serializedVersion: 2
+      x: 1539
+      y: 225
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1539
+      y: 225
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconRight
+    outer:
+      serializedVersion: 2
+      x: 1604
+      y: 307
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1604
+      y: 307
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconDown
+    outer:
+      serializedVersion: 2
+      x: 1539
+      y: 143
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1539
+      y: 143
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IconLeft
+    outer:
+      serializedVersion: 2
+      x: 1539
+      y: 307
+      width: 63
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1539
+      y: 307
+      width: 63
+      height: 80
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Slider
+    outer:
+      serializedVersion: 2
+      x: 1734
+      y: 298
+      width: 36
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 1752
+      y: 314
+      width: 0
+      height: 57
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: .5
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
